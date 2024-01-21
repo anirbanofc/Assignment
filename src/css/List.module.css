@@ -1,0 +1,82 @@
+.section
+{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    border: 1px solid red;
+
+}
+
+.section .left
+{
+    width: 20%;
+    padding: 10px;
+}
+.section .left h1
+{
+    color: gray;
+    font-weight: 100;
+    font-size: 40px;
+}
+.section .left h2
+{
+    font-size: 42px;
+}
+.section .left p
+{
+    text-align: justify;
+    margin-top: 10px;
+}
+
+
+
+.section .right
+{
+    width: 60%;
+}
+.section .right p
+{
+    margin-top: 10px;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.section .right .child
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    margin-top: 10px;
+  
+}
+.section .right .child h1
+{
+    margin-right: 15px;
+   
+}
+.section .right .child button
+{
+    position: absolute;  
+    right: 10px;
+    top: 15px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+}
+
+.section .right .child h2{
+    font-weight: 200;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 6px;
+    margin-left: 34px;
+}
+
+
+
+

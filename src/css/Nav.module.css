@@ -1,0 +1,27 @@
+.Navbar_parent
+{
+    padding: 20px 10px;
+    width: 100%;
+    background-color: #6C5F5B;
+   
+}
+.Navbar_parent_a
+{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Navbar_child
+{
+    padding: 10px;
+  
+   display: flex;
+   flex-direction: column;
+   
+}
+.section
+{
+    display: flex;
+}

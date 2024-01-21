@@ -1,0 +1,49 @@
+.parent
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.child
+{
+    height: 300px;
+    width: 250px;
+    margin: 20px;
+    border: 2px solid black;
+}
+.child .div{
+    height: 250px;
+    width: 100%;
+}
+.child .div img
+{
+    height: 100%;
+    width: 100%;
+}
+.child h1
+{
+    height: 40px;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.child .btn1
+{
+    color: white;
+    background-color:green;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+}
+.child .btn2
+{
+    border: none;
+
+    color: white;
+    background-color:rgb(248, 45, 4);
+    font-weight: bold;
+    font-size: 15px;
+}
